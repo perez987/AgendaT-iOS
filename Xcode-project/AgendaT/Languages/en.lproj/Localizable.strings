@@ -1,0 +1,49 @@
+/* English Localization */
+
+/* Main title */
+"phone_numbers" = "Phone numbers";
+
+/* Search and filter controls */
+"search_by_name" = "Search by name";
+"show_button" = "Show";
+"clear_filters_button" = "Clear filters";
+"add_contact" = "Add Contact";
+
+/* Record counter */
+"records_shown" = "Records shown: %d";
+
+/* Grid headers */
+"header_name" = "Name";
+"header_phone1" = "Phone 1";
+"header_phone2" = "Phone 2";
+"header_id" = "ID";
+
+/* Delete confirmation */
+"delete_confirmation_title" = "Delete Contact";
+"delete_confirmation_message" = "Are you sure you want to delete '%@'?";
+"delete" = "Delete";
+"cancel" = "Cancel";
+
+/* Edit Contact View */
+"add_contact_title" = "Add New Contact";
+"edit_contact_title" = "Edit Contact";
+"name_label" = "Name:";
+"phone1_label" = "Phone 1:";
+"phone2_label" = "Phone 2:";
+"id_label" = "ID:";
+"add" = "Add";
+"save" = "Save";
+
+/* Validation */
+"validation_error_title" = "Validation Error";
+"invalid_phone_error" = "Phone number must contain only digits and be between 4 and 10 characters long.";
+"phone1_required_error" = "Phone 1 is required. Please enter a phone number.";
+"duplicate_id_title" = "Duplicate ID";
+"duplicate_id_message" = "A contact with ID %d already exists. Cannot save duplicate ID.";
+"ok" = "OK";
+
+/* Mobile browsing and storage */
+"sort_contacts" = "Sort contacts";
+"no_contacts" = "No contacts to display.";
+"storage_error_title" = "Could Not Save Changes";
+"storage_error_message" = "Your changes could not be saved to Phonebook.xml. Please try again.";
