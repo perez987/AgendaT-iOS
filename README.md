@@ -1,4 +1,4 @@
-# AgendaT - Simple Phonebook Application
+# AgendaT - Simple Phonebook Application for iPad and iPhone
 
 ![Platform](https://img.shields.io/badge/iOS%20%2F%20iPadOS-16+-orange.svg)
 ![Swift](https://img.shields.io/badge/Swift-5-color=9494ff.svg)
@@ -10,9 +10,9 @@ More than an app for real use (although it works well), it should be seen as an 
 
 The mobile interface uses contact cards that adapt from one column on iPhone to multiple columns on iPad, including Split View. Contact forms scroll to accommodate the keyboard and larger text sizes.
 
-|  | 
-|:----|
-| ![iPad screen](Images/Screen.png) | 
+|                                   |
+| :-------------------------------- |
+| ![iPad screen](Images/Screen.png) |
 
 ## Features
 
@@ -46,13 +46,12 @@ The mobile interface uses contact cards that adapt from one column on iPhone to 
 - **Local Contacts**: The existing bundled phonebook and XML format are retained. This app manages its own contacts; it does not access or sync Apple's Contacts database.
 
 ## Documents directory storage
-  
+
 Contacts are saved as `Phonebook.xml` in the app's Documents directory. On first launch, the bundled phonebook is copied there; subsequent launches load the saved file instead.
 
 Use **Files → On My iPhone/iPad → AgendaT**, or Finder file sharing on a connected Mac, to back up or replace this file. Fully close AgendaT before replacing it and reopen it afterward. Replacing the file replaces the entire phonebook, so keep a backup first.
 
 To migrate existing contacts from the ![macOS app](https://github.com/perez987/AgendaT), copy `~/Library/Containers/perez987.AgendaT/Data/Documents/Phonebook.xml` from your Mac into AgendaT's Documents folder on the device after its first launch. The XML format is unchanged; no conversion is required.
-
 
 ## Project Structure
 
