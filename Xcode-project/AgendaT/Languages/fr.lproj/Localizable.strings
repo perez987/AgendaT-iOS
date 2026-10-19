@@ -1,7 +1,7 @@
 /* French Localization */
 
 /* Main title */
-"phone_numbers" = "Numéros de téléphone";
+"phone_numbers" = "Téléphones";
 
 /* Search and filter controls */
 "search_by_name" = "Rechercher par nom";
